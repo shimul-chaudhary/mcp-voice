@@ -1,0 +1,12 @@
+[project]
+name = "mcp-voice"
+version = "0.1.0"
+description = "Voice interface for cloud analytics via Vapi + MCP"
+requires-python = ">=3.12"
+dependencies = [
+    "httpx>=0.28",
+    "python-dotenv>=1.0",
+]
+
+[tool.uv]
+package = false

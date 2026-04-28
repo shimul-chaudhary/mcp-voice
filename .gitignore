@@ -1,0 +1,12 @@
+# Global ignores
+.env
+.vapi_state.json
+__pycache__/
+*.pyc
+.venv/
+uv.lock
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
