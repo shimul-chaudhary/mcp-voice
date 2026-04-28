@@ -145,8 +145,8 @@ The voice assistant can answer questions about this project itself. Point [knowl
 
 **Asking about voice/LLM customization and schema sanitization:**
 
-![Customization and schema sanitization queries](docs/screenshots/Screenshot%202026-04-27%20at%208.16.01%20PM.png)
+![Customization and schema sanitization queries](docs/screenshots/Screenshot-2026-04-27-at-8.16.01-PM.png)
 
 **Listing all indexed documents:**
 
-![List documents query](docs/screenshots/Screenshot%202026-04-27%20at%208.16.21%20PM.png)
+![List documents query](docs/screenshots/Screenshot-2026-04-27-at-8.16.21-PM.png)
