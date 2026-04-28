@@ -125,6 +125,7 @@ def _sanitize_schema(schema: dict) -> dict:
 
     # Remove $defs (Vapi doesn't support references)
     schema.pop("$defs", None)
+    schema.pop("title", None)
 
     # Handle anyOf with null (optional field pattern)
     if "anyOf" in schema:

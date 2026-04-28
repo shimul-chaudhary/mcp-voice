@@ -128,3 +128,25 @@ VOICE_TOOLS=search,describe_app,get_data_model,get_fields,search_knowledgebase_c
 
 To change which tools the MCP server loads, edit `start.sh` / `start_mcp.sh`
 and change `--tools all` to specific tool sets.
+
+## Documentation
+
+| Doc | Topic |
+|-----|-------|
+| [Architecture](docs/01-architecture.md) | Component diagram, session management, schema handling |
+| [Getting Started](docs/02-getting-started.md) | Step-by-step setup guide |
+| [Customization](docs/03-customization.md) | Changing tools, voice, LLM, system prompt |
+| [Troubleshooting](docs/04-troubleshooting.md) | Common issues and diagnostic scripts |
+| [How It Works](docs/05-how-it-works.md) | End-to-end walkthrough of a voice query |
+
+## Demo: voice Q&A over project docs
+
+The voice assistant can answer questions about this project itself. Point [knowledgebase-mcp](https://github.com/shimul-chaudhary/knowledgebase-mcp) at the `docs/` folder and the agent uses semantic search to answer questions about architecture, setup, customization, troubleshooting, and internals — all via voice.
+
+**Asking about voice/LLM customization and schema sanitization:**
+
+![Customization and schema sanitization queries](docs/screenshots/Screenshot%202026-04-27%20at%208.16.01%20PM.png)
+
+**Listing all indexed documents:**
+
+![List documents query](docs/screenshots/Screenshot%202026-04-27%20at%208.16.21%20PM.png)
